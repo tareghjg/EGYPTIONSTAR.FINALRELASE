@@ -46,7 +46,7 @@ body {
     height: 179px;
 }
 .main{
-    background: url('../img/BACKGROND\ MAIN.jpg');
+    background: url('#');
     
     background-size: cover;
     background-position: center center;
