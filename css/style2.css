@@ -1,0 +1,145 @@
+/*  صفحة التانيه */
+.contact-page {
+    background: linear-gradient(135deg, #f06292, #24140f); 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.logo-item img {
+    width: 120px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-item img:hover {
+    transform: scale(1.1); 
+}
+
+.content {
+    margin-bottom: 50px;
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* LOGOOOO   */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.social-icon img {
+    width: 35px;
+    height: 35px;
+}
+
+.social-icon:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+/* شكل الارقام  */
+.contact-numbers {
+    margin-top: 30px;
+}
+
+.contact-numbers h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contact-numbers ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.contact-numbers li {
+    margin: 10px 0;
+}
+
+.contact-numbers a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-numbers a:hover {
+    color: #ff8a65; 
+}
+
+/* ##############################################################################
+#################################################################################
+#########################ETCH#####################ETCH####################BY ETCH*/
+@media (max-width: 768px) {
+    .logos {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .logo-item img {
+        width: 120px;
+    }
+
+    .social-icon {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-icon {
+        width: 45px;
+        height: 45px;
+    }
+}
